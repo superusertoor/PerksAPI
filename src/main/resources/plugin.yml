@@ -1,0 +1,5 @@
+name: Perks
+author: toor
+version: 1.0
+api-version: 1.13
+main: main.Perks
