@@ -29,7 +29,7 @@ public class Perk {
         PerkHandler.add(this);
     }
 
-    public void active(PerkPlayer perkPlayer) {
+    public void activate(PerkPlayer perkPlayer) {
         perkPlayer.bukkit().addPotionEffect(new PotionEffect(potionEffectType, 356000, amplifier));
         perkPlayer.setPerkEnabled(this);
         Bukkit.getPluginManager().callEvent(new PerkEnableEvent(perkPlayer, this));
