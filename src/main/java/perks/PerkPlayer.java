@@ -27,6 +27,11 @@ public class PerkPlayer {
         return Bukkit.getPlayer(uuid);
     }
 
+    public void remove(Perk perk) {
+        perks.remove(this);
+        setPerkDisabled(perk);
+    }
+
     public void addPerk(Perk perk) {
         perks.add(perk);
     }
