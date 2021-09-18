@@ -1,5 +1,5 @@
 PerksAPI
-Register listener PerkJoinListener to cache PerkPlayers
+- You can register listener PerkJoinListener to cache PerkPlayers
 
 Events
   - PerkEnableEvent
