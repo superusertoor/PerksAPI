@@ -2,11 +2,11 @@ PerksAPI
 Register listener PerkJoinListener to cache PerkPlayers
 
 Events
-  PerkEnableEvent
+ PerkEnableEvent
      - getPerk(); - returns Perk
      - getPerkPlayer(); - returns PerkPlayer
      
-  PerkDisableEvent
+ PerkDisableEvent
     - getPerk(); - returns Perk
     - getPerkPlayer(); - returns PerkPlayer
 
