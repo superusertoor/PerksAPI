@@ -46,6 +46,10 @@ public class Perk {
         return this;
     }
 
+    public PotionEffectType getPotionEffectType() {
+        return potionEffectType;
+    }
+
     public Perk setPotionEffectType(PotionEffectType effectType) {
         this.potionEffectType = effectType;
         return this;
