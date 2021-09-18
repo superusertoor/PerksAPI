@@ -3,16 +3,11 @@ Register listener PerkJoinListener to cache PerkPlayers
 
 Events
   - PerkEnableEvent
+    - getPerk(); - returns Perk
+    - getPerkPlayer(); - returns PerkPlayer
   - PerkDisableEvent
-  - setPotionEffectType(PotionEffectType); - sets potioneffecttype
-    - getPotionEffectType(); - returns effecttype
-  - setName(String); - sets name
-    - getName(); - returns name
-  - setDescription(String...); - sets description
-  - setDescription(List<String>); - sets description
-    - getDescription(); returns description
-  - setAmplifier(int); - sets amplifier
-    - getAmplifier(); - returns amplifier
+    - getPerk(); - returns perk
+    - getPerkPlayer(); - returns PerkPlayer
 
 PerkHandler
   - getPerkPlayer(Player); - returns a PerkPlayer
