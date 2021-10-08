@@ -1,3 +1,5 @@
+EXPERIMENTAL
+
 PerksAPI
 - You can register listener PerkJoinListener to cache PerkPlayers
 
